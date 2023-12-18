@@ -12,5 +12,3 @@ chmod +x $HOME/.xinitrc
 chmod +x $HOME/.config/bspwm/bspwmrc
 cp $HOME/sys/git/wallpaper/* $HOME/sys/wall
 
-nix-channel --add http://nixos.org/channels/nixpkgs-unstable
-nix-channel --update
