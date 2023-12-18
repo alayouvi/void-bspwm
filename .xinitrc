@@ -13,7 +13,7 @@ xrandr --addmode DVI-0 "1280x800_60.00"
 xrandr --output DVI-0 --mode 1280x800_60.00
 xrandr --output DVI-0 --scale 1.2x1.2
 #polybar &
-feh --bg-fill --randomize ~/sys/wallpaper/*
+feh --bg-fill --randomize ~/sys/wall/*
 exec dbus-run-session bspwm
 #exec ~/.config/dk/scripts/autostart.sh &
 
